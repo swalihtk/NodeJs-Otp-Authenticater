@@ -1,7 +1,7 @@
 const express=require("express");
 const expressHandlebars=require("express-handlebars");
 const bodyParser=require("body-parser");
-const messagebird=require("messagebird")("zw33Oc3bWs1EFh3PP6YBVe3se");
+const messagebird=require("messagebird")("API Key");
 require('dotenv').config();
 
 
