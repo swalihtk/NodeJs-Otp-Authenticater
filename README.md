@@ -17,6 +17,7 @@
  
 ### Send Otp to phone number:
 
+```javascript
 messagebird.verify.create{MOBILE_NUMBER_WITH_INTERNATIONEL_CODE, <br/>
          originator : 'Code',
         template:"Your verification code is %token"
@@ -30,7 +31,7 @@ messagebird.verify.create{MOBILE_NUMBER_WITH_INTERNATIONEL_CODE, <br/>
             })
         }
     })
-    
+```
     
 ### Recive Verfiy OTP Number:
 
