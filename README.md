@@ -8,12 +8,14 @@
  * dotenv
  
 ### Step One:
+
+```javascript
   const express=require("express"); <br/>
   const expressHandlebars=require("express-handlebars"); <br />
   const bodyParser=require("body-parser"); <br />
   const messagebird=require("messagebird")(API_KEY_OF_MESSAGEBIRD); <br />
   require('dotenv').config();
-  
+ ``` 
  
 ### Send Otp to phone number:
 
