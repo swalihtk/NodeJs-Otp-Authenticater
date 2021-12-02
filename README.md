@@ -37,6 +37,7 @@ messagebird.verify.create{MOBILE_NUMBER_WITH_INTERNATIONEL_CODE, <br/>
     
 ### Recive Verfiy OTP Number:
 
+```javascript
 messagebird.verify.verify(RESPONSE_ID, VERIFICATION_CODE_ENTERD_BY_USER, (err, response)=>{
         if(err){
             console.log(err);
@@ -44,3 +45,4 @@ messagebird.verify.verify(RESPONSE_ID, VERIFICATION_CODE_ENTERD_BY_USER, (err, r
             res.send("Code Succusfully Verified");
         }
     })
+```
